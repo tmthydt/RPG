@@ -18,7 +18,7 @@ if (game === "yes") {
     userHealth = userHealth - userDamage;
     grantHealth = grantHealth - grantDamage;
     console.log(`${userName} is at ${userHealth} HP.`)
-    console.log(`Thee Almighty Grant has $(grantHealth) HP.`);
+    console.log(`Thee Almighty Grant has ${grantHealth}HP.`);
     if (grantHealth <= 0) {
         userWins++;
         console.log(`${userWins} won for ${userName}.`)
